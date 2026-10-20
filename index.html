@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#C9B6F2" />
+  <meta name="description" content="Jeannamarie's software engineering and creative technology portfolio." />
+  <title>jeannamarie.exe | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="desktop" id="desktop">
+    <header class="topline"><span>✧ jeannamarie.exe</span><span>software engineering × creative technology</span></header>
+    <nav class="desktop-icons" aria-label="Desktop folders">
+      <button class="desktop-icon" data-open="about"><span class="folder-art" aria-hidden="true">📁</span><span>About Me</span></button>
+      <button class="desktop-icon" data-open="projects"><span class="folder-art" aria-hidden="true">📁</span><span>Projects</span></button>
+      <button class="desktop-icon" data-open="experience"><span class="folder-art" aria-hidden="true">📁</span><span>Experience</span></button>
+      <button class="desktop-icon" data-open="resume"><span class="folder-art" aria-hidden="true">📄</span><span>Resume.pdf</span></button>
+      <button class="desktop-icon" data-open="contact"><span class="folder-art" aria-hidden="true">💌</span><span>Contact</span></button>
+    </nav>
+
+    <main class="window" id="app-window" aria-labelledby="window-title">
+      <div class="window-bar">
+        <span id="window-title">✧ Welcome — jeannamarie.exe</span>
+        <div class="window-controls"><button id="home-btn" aria-label="Return to welcome screen" title="Home">⌂</button><button id="close-btn" aria-label="Close window" title="Close">×</button></div>
+      </div>
+      <div class="window-body" id="window-content" aria-live="polite"></div>
+      <div class="window-status"><span>✿ made with curiosity & caffeine</span><span id="status-label">welcome</span></div>
+    </main>
+
+    <div class="desktop-hint" id="desktop-hint" hidden>Choose a folder to explore ✧</div>
+    <footer class="taskbar"><button class="start-button" id="start-btn">✿ Start</button><span class="taskbar-title">jeannamarie.exe</span><span class="taskbar-clock" id="clock">portfolio v1.0</span></footer>
+  </div>
+</body>
+</html>
