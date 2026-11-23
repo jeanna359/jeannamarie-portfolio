@@ -1,7 +1,7 @@
 /* Edit the content below to personalize your portfolio. */
 const PROFILE = {
   github: 'https://github.com/jeanna359', // REPLACE with your actual GitHub profile URL
-  linkedin: 'www.linkedin.com/in/jeannamarie-laureta-216490114', // REPLACE with your actual LinkedIn profile URL
+  linkedin: 'https://www.linkedin.com/in/jeannamarie-laureta-216490114', // REPLACE with your actual LinkedIn profile URL
   email: 'laur2545@kettering.edu',
   resume: 'resume.pdf'
 };
